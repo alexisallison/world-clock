@@ -1,0 +1,92 @@
+:root {
+  --head-font: "Philosopher", sans-serif;
+  --second-font: "Mulish", sans-serif;
+}
+body {
+  background-image: url("/images/galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--second-font);
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  margin-bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgb(251, 139, 168) 0%,
+    rgb(205, 171, 239) 100%
+  );
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--head-font);
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  padding: 20px 0;
+  justify-content: space-between;
+  border-bottom: 1px dashed;
+}
+
+.city:last-child {
+  border: none;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
+.date {
+  opacity: 0.9;
+}
+
+.time {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #1a353e;
+}
